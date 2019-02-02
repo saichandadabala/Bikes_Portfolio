@@ -1,0 +1,187 @@
+<html>
+<head>
+	<title >Bikes Portfolio
+	</title>
+	</head>
+	<style>
+
+	img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+	
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(35, 59, 21) ;
+    padding: 20px;
+    font-family: Arial;
+    background-image: url("https://i.pinimg.com/originals/4c/e6/2d/4ce62da8f3e5903e95a6e98965bbc37b.jpg");
+    background-repeat: cover;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+
+}
+h3{
+	color: brown;
+	text-align: center;
+}
+
+.row {
+    margin: 8px -17px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 9px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* Content */
+.box {
+
+    background-color: transparent;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+div.head{
+	background-color:transparent;
+	position: relative;
+	bottom: 0;
+
+	
+}
+.head_text{
+	float: right;
+	text-align: right;
+}
+h1{
+	color: gold;
+	font-size: 40px;
+	font-style: italic;
+	font-family: Marker Felt
+}
+
+</style>
+
+
+<body >	
+	
+
+<div class="main">	
+<div class="head">
+	
+<img src="http://bds-suspension.com/logos/BDSlogo-vert-blue.png" width="200px" height="100px">
+<div class="head_text"><h1>Bikes Portfolio</h1>
+</div>
+</div>
+</div>
+<hr >
+</div>
+
+
+<div><center><img src="https://cdnmedia.endeavorsuite.com/images/showcase/productOwner_colorLogos/powersports/indian.png"></center></div><hr>
+		
+	<div class="row">
+		<div class="column">
+			<div class="box">
+			<img src="https://images.financialexpress.com/2018/05/pegasus-brown-rhs-1-1.png" width="100%"><h3>Peagasus</h3>
+			
+		</div>
+	</div>
+		<div class="column">
+			<div class="box">
+			<img src="https://4.imimg.com/data4/II/II/GLADMIN-/images-models-classicdesertstorm-small-500x500.png" alt="Bullest desert" width="100%">
+			<h3>Desert Storm</h3>
+			
+</div>
+		</div>
+		<div class="column">
+			<div class="box">
+			<img src="http://pluspng.com/img-png/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png" alt="Bullet desert" width="100%">
+			<h3>Dessert Storm</h3>
+</div>
+		</div>
+		
+
+	
+	</div>
+	<div class="column">
+			<div class="box">
+			<img src="http://pngimg.com/uploads/motorcycle/motorcycle_PNG5344.png" width="100%"><h3>Victory Aposta</h3>
+			
+		</div>
+	</div>
+		<div class="column">
+			<div class="box">
+			<img src="https://auto.ndtvimg.com/bike-images/colors/kawasaki/vulcan-s/kawasaki-vulcan-s-metallic-flat-spark-black.png?v=1" alt="Bullest desert" width="100%">
+			<h3>Kawasaki vulcan</h3>
+		
+</div>
+		</div>
+		<div class="column">
+			<div class="box">
+			<img src="https://dw4i9za0jmiyk.cloudfront.net/2018/04/25/new_bike_lb8e0fdcbfe1fc2d9a477d630ba4d87a_0760db1f2c93.png" alt="Bullet desert" height="50%" width="100%"><br>
+			<h3>V-Rod</h3>
+			
+</div>
+		</div>
+		
+
+	
+	</div>
+			
+	</body>
+</html>
